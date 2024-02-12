@@ -2,24 +2,6 @@ const yesButton = document.getElementById('yes');
 const noButton = document.getElementById('no');
 let noClicks = 0;
 
-
-// yesButton.addEventListener('click', function () {
-//   // Display confetti for 15 seconds
-//   const confetti = document.getElementById('confetti');
-//   confetti.innerHTML = '';
-//   for (let i = 0; i < 100; i++) {
-//     const particle = document.createElement('div');
-//     particle.classList.add('confetti__particle');
-//     particle.style.top = Math.random() * 100 + '%';
-//     particle.style.left = Math.random() * 100 + '%';
-//     confetti.appendChild(particle);
-//   }
-//   setTimeout(() => {
-//     location.reload(); // Reload the page after 15 seconds
-//   }, 15000);
-// });
-
-
 yesButton.addEventListener('click', function () {
   // Display confetti for 15 seconds
   const defaults = {
